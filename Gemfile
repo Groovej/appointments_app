@@ -11,6 +11,7 @@ gem 'rails', '~> 7.0.7'
 gem 'sqlite3', '~> 1.6.8'
 gem 'sprockets-rails', '~> 3.4.2', :require => 'sprockets/railtie'
 gem 'tzinfo-data', '~> 1.2023', '>= 1.2023.3', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'uglifier', '~> 4.2'
 
 group :development, :test do
   gem 'factory_bot_rails', '6.2.0'
