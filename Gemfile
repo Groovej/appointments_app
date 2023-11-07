@@ -8,7 +8,6 @@ gem 'devise', '~> 4.9', '>= 4.9.3'
 gem 'js-routes', '~> 2.2.7'
 gem 'puma', '~> 6.4.0'
 gem 'rails', '~> 7.0.7'
-gem 'sqlite3', '~> 1.6.8'
 gem 'sprockets-rails', '~> 3.4.2', :require => 'sprockets/railtie'
 gem 'tzinfo-data', '~> 1.2023', '>= 1.2023.3', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'uglifier', '~> 4.2'
@@ -27,4 +26,9 @@ group :development do
   gem 'foreman'
   gem 'pry-rails'
   gem 'pry-nav'
+  gem 'sqlite3', '~> 1.6.8'
+end
+
+group :production do
+  gem 'pg', '~> 1.5', '>= 1.5.4'
 end
