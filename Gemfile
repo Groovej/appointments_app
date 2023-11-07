@@ -9,7 +9,7 @@ gem 'js-routes', '~> 2.2.7'
 gem 'puma', '~> 6.4.0'
 gem 'rails', '~> 7.0.7'
 gem 'sprockets-rails', '~> 3.4.2', :require => 'sprockets/railtie'
-gem 'tzinfo-data', '~> 1.2023', '>= 1.2023.3', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', '~> 1.2023', '>= 1.2023.3'
 gem 'uglifier', '~> 4.2'
 
 group :development, :test do
@@ -18,7 +18,7 @@ group :development, :test do
   gem 'rspec-rails', '6.0.1'
   gem 'shoulda-matchers', '4.5.1', require: false
 
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug'
 end
 
 group :development do
